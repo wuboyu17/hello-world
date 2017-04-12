@@ -7,7 +7,6 @@ import plotly.graph_objs as go
 import matplotlib.pyplot as plt
 
 # plot l'ACP
-#changes2
 path = 'C:\\Users\\michel\\Desktop\\Spectrecourrier\\CSV\\Jam_clustering\\Analyse_glissante\\' + session_date + '\\caracteristique.csv'
 caracteristique = pd.read_csv(filepath_or_buffer=path, sep=';', encoding='latin-1')
 caracteristique_reduit = caracteristique[caracteristique['Nb_Pli'] >= 100]
